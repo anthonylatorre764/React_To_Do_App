@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(153, 153, 97, 0.393);;
+}
+
+#formContainer {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(118, 155, 124, 0.626);
+    height: 80px;
+    width: 90vw;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+form {
+    height: 42px;
+    width: 95%;
+    text-align: center;
+    margin: 17px auto;
+}
+
+label {
+    font-size: 23px;
+    color: rgb(87, 87, 87);
+}
+
+input[type=text] {
+    margin: 0 10px 0 5px;
+    padding-left: 10px;
+    height: 35px;
+    width: 65%;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgba(241, 248, 243, 0.437);
+}
+
+button {
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: rgba(104, 172, 81, 0.933);
+}
+
+form button:hover {
+    background-color: rgba(95, 157, 74, 0.933); 
+}
+
+
+@media screen and (min-width: 600px) {
+    #formContainer {
+        width: 600px;
+    }
+}
